@@ -1,0 +1,16 @@
+@keyframes load {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+.load {
+  opacity: 1;
+  animation-name: load;
+    animation-duration: 8s;
+    background-color: #26ff86;
+    border-width: 14px;
+    border-style: groove;
+    border-color: #26d2ff #ff2626 #ffef26 #ff26f4;
+}
+img {
+  width: 50px;
+}
